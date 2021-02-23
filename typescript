@@ -1,0 +1,189 @@
+Script started on 2021-02-22 15:05:35-0500
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git log
+[?1h=[33mcommit b0e86486ab3665c98411c923fc2d01cc968d334a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Grant <rocksquare8@gmail.com>[m
+Date:   Mon Feb 22 15:03:33 2021 -0500[m
+[m
+    hello world added[m
+[K[?1l>]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git branch personalize
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git checkout
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git checkout personalize
+Switched to branch 'personalize'
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git add [K[K[K[K[K[K[K[Knano Makefile
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                       Makefile                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3dh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l[4d[?12l[?25h[?25l[3;6H[?12l[?25h[?25l(B[0;1m[34mhello:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l h[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25lc[?12l[?25h[?25l[4d[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[1K g[?12l[?25h[?25l+[?12l[?25h[?25l+[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lo[?12l[?25h[?25l[42m [22d[49m(B[m[K[4;16H[?12l[?25h[?25l $[?12l[?25h[?25l@[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l $[?12l[?25h[?25l<[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: Makefile                                                    [22;1H(B[m[22;29H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 2 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[4;21H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ make
+g++ -o hello hello.cc
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ ./[K[Kgit add make[K[K[K[KMakefile
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git commit
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;32H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m  GNU nano 2.9.3 /home/acc.beasleyg2/homework210/.git/COMMIT_EDITMSG            [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[4d[39;49m[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# On branch personalize[8d# Changes to be committed:[9d#       new file:   Makefile[10d#[11d# Untracked files:[12d#       a.out[13d#       hello[14d#       typescript[15d#[3d[39m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3da[?12l[?25h[?25ld[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lk[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: /home/acc.beasleyg2/homework210/.git/COMMIT_EDITMSG         [22;1H(B[m[22;72H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 13 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3;16H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[K[personalize 3c76ca5] added make file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Makefile
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ ls -l
+total 32
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:00 [0m[01;32ma.out[0m
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:11 [01;32mhello[0m
+-rw-r--r-- 1 beasleyg2 Domain Users   97 Feb 22 14:59 hello.cc
+-rw-r--r-- 1 beasleyg2 Domain Users   30 Feb 22 15:11 Makefile
+-rw-r--r-- 1 beasleyg2 Domain Users    0 Feb 22 15:05 typescript
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git log
+[?1h=[33mcommit 3c76ca549004b40f6b66d1f3f283fa29f219ce36[m[33m ([m[1;36mHEAD -> [m[1;32mpersonalize[m[33m)[m[m
+Author: Grant <rocksquare8@gmail.com>[m
+Date:   Mon Feb 22 15:12:05 2021 -0500[m
+[m
+    added make file[m
+[m
+[33mcommit b0e86486ab3665c98411c923fc2d01cc968d334a[m[33m ([m[1;32mmaster[m[33m)[m[m
+Author: Grant <rocksquare8@gmail.com>[m
+Date:   Mon Feb 22 15:03:33 2021 -0500[m
+[m
+    hello world added[m
+[K[?1l>]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ nano hello.cc
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 7 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                       hello.cc                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d(B[0;1m[36m#include[39m(B[m (B[0;1m[33m<iostream>[4d(B[0m[32musing[39m(B[m [32mnamespace[39m(B[m std;[6d[32mint[39m(B[m main(){[7dcout << (B[0;1m[33m"hello world"[39m(B[m << endl;[8d[35mreturn[39m(B[m 0;[9d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[22d[K[7;23H[?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[8;22r[8;1HM[1;24r[8;1H[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l <[?12l[?25h[?25l<[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lG[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[9G(B[0;1m[33m"Grant"[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l <[?12l[?25h[?25l<[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l 3[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l e[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: hello.cc                                                    [22;1H(B[m[22;29H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 8 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[8;25H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git checkout master
+M	hello.cc
+Switched to branch 'master'
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ ls -l
+total 36
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:00 [0m[01;32ma.out[0m
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:11 [01;32mhello[0m
+-rw-r--r-- 1 beasleyg2 Domain Users  122 Feb 22 15:13 hello.cc
+-rw-r--r-- 1 beasleyg2 Domain Users 8192 Feb 22 15:14 typescript
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ cat hello.cc
+#include <iostream>
+using namespace std;
+
+int main(){
+cout << "hello world" << endl;
+cout << "Grant" << endl;
+return 0;
+}
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git log
+[?1h=[33mcommit b0e86486ab3665c98411c923fc2d01cc968d334a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Grant <rocksquare8@gmail.com>[m
+Date:   Mon Feb 22 15:03:33 2021 -0500[m
+[m
+    hello world added[m
+[K[?1l>]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git checkout personalize
+M	hello.cc
+Switched to branch 'personalize'
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ ls-[K -l
+total 40
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:00 [0m[01;32ma.out[0m
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:11 [01;32mhello[0m
+-rw-r--r-- 1 beasleyg2 Domain Users  122 Feb 22 15:13 hello.cc
+-rw-r--r-- 1 beasleyg2 Domain Users   30 Feb 22 15:16 Makefile
+-rw-r--r-- 1 beasleyg2 Domain Users 8192 Feb 22 15:14 typescript
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git checkout master
+M	hello.cc
+Switched to branch 'master'
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ ls -l
+total 36
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:00 [0m[01;32ma.out[0m
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:11 [01;32mhello[0m
+-rw-r--r-- 1 beasleyg2 Domain Users  122 Feb 22 15:13 hello.cc
+-rw-r--r-- 1 beasleyg2 Domain Users 8192 Feb 22 15:14 typescript
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git log
+[?1h=[33mcommit b0e86486ab3665c98411c923fc2d01cc968d334a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Grant <rocksquare8@gmail.com>[m
+Date:   Mon Feb 22 15:03:33 2021 -0500[m
+[m
+    hello world added[m
+[K[?1l>]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git merge personalize 
+Updating b0e8648..3c76ca5
+Fast-forward
+ Makefile | 2 [32m++[m
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Makefile
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ ls -l
+total 40
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:00 [0m[01;32ma.out[0m
+-rwxr-xr-x 1 beasleyg2 Domain Users 8920 Feb 22 15:11 [01;32mhello[0m
+-rw-r--r-- 1 beasleyg2 Domain Users  122 Feb 22 15:13 hello.cc
+-rw-r--r-- 1 beasleyg2 Domain Users   30 Feb 22 15:17 Makefile
+-rw-r--r-- 1 beasleyg2 Domain Users 8192 Feb 22 15:14 typescript
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git log
+[?1h=[33mcommit 3c76ca549004b40f6b66d1f3f283fa29f219ce36[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mpersonalize[m[33m)[m[m
+Author: Grant <rocksquare8@gmail.com>[m
+Date:   Mon Feb 22 15:12:05 2021 -0500[m
+[m
+    added make file[m
+[m
+[33mcommit b0e86486ab3665c98411c923fc2d01cc968d334a[m[m
+Author: Grant <rocksquare8@gmail.com>[m
+Date:   Mon Feb 22 15:03:33 2021 -0500[m
+[m
+    hello world added[m
+[K[?1l>]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ nano circle.cc
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                      circle.cc                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ nano hello.cc
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 8 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                       hello.cc                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d(B[0;1m[36m#include[39m(B[m (B[0;1m[33m<iostream>[4d(B[0m[32musing[39m(B[m [32mnamespace[39m(B[m std;[6d[32mint[39m(B[m main(){[7dcout << (B[0;1m[33m"hello world"[39m(B[m << endl;[8dcout << (B[0;1m[33m"Grant"[39m(B[m << endl;[9d[35mreturn[39m(B[m 0;[10d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25l[22d[K[8;22H[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l[9d[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[8;25H[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[9;22r[9;1HM[1;24r[9;1H[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l <[?12l[?25h[?25l<[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lW[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lp[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l U[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25ly[?12l[?25h[?25l[9;9H(B[0;1m[33m"Winthrop University"[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l <[?12l[?25h[?25l<[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l e[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: hello.cc                                                    [22;1H(B[m[22;29H[?12l[?25h[?25l[22;29H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 9 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[9;39H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git commit -m "made[K[K[K[Kadded winthrop university to outp ut"
+On branch master
+Changes not staged for commit:
+	[31mmodified:   hello.cc[m
+
+Untracked files:
+	[31ma.out[m
+	[31mhello[m
+	[31mtypescript[m
+
+no changes added to commit
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git commit
+On branch master
+Changes not staged for commit:
+	[31mmodified:   hello.cc[m
+
+Untracked files:
+	[31ma.out[m
+	[31mhello[m
+	[31mtypescript[m
+
+no changes added to commit
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ cas[Kt hello.cc
+#include <iostream>
+using namespace std;
+
+int main(){
+cout << "hello world" << endl;
+cout << "Grant" << endl;
+cout << "Winthrop University" << endl;
+return 0;
+}
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git commit hello9[K.cc
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;32H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m  GNU nano 2.9.3 /home/acc.beasleyg2/homework210/.git/COMMIT_EDITMSG            [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[4d[39;49m[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# On branch master[8d# Changes to be committed:[9d#       modified:   hello.cc[10d#[11d# Untracked files:[12d#       a.out[13d#       hello[14d#       typescript[15d#[3d[39m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3da[?12l[?25h[?25ld[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lp[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25lv[?12l[?25h[?25le[22d[K[3;21H[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25ly[?12l[?25h[?25l7[4;22r8[4dM[1;24r[4;1H[?12l[?25h[?25l[4;22r[22;1H
+[1;24r[3;25H[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: /home/acc.beasleyg2/homework210/.git/COMMIT_EDITMSG         [22;1H(B[m[22;72H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 13 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3;25H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[K[master dc0b92b] added winthrop univerity
+ 1 file changed, 2 insertions(+)
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git revert[K[K[K[Kset HEAD
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ cat hello.cc
+#include <iostream>
+using namespace std;
+
+int main(){
+cout << "hello world" << endl;
+cout << "Grant" << endl;
+cout << "Winthrop University" << endl;
+return 0;
+}
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git reset Head [K[K[K[KEAD^
+Unstaged changes after reset:
+M	hello.cc
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ cat hello.cc
+#include <iostream>
+using namespace std;
+
+int main(){
+cout << "hello world" << endl;
+cout << "Grant" << endl;
+cout << "Winthrop University" << endl;
+return 0;
+}
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ dir
+a.out  hello  hello.cc	Makefile  typescript
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ ./a.out
+hello world
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ make
+g++ -o hello hello.cc
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ ./a[Khello
+hello world
+Grant
+Winthrop University
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git revert hello.cc
+fatal: bad revision 'hello.cc'
+]0;beasleyg2@hopper: ~/homework210beasleyg2@hopper:~/homework210$ git commit hello.cc
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;32H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m  GNU nano 2.9.3 /home/acc.beasleyg2/homework210/.git/COMMIT_EDITMSG            [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[4d[39;49m[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# On branch master[8d# Changes to be committed:[9d#       modified:   hello.cc[10d#[11d# Untracked files:[12d#       a.out[13d#       hello[14d#       typescript[15d#[3d[39m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3dm[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;
